@@ -16,7 +16,7 @@ const Main = () => {
     },[location.pathname])
 
     return (
-        <div className='container mx-auto'>
+        <div className='container mx-auto bg-white'>
         <Navbar></Navbar>
         <Outlet></Outlet> 
         <ToastContainer />
